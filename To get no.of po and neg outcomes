@@ -1,0 +1,6 @@
+import pandas as pd
+data=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv')
+df=pd.DataFrame(data)
+df2=df
+c=df2['Outcome'].value_counts()
+print(c)
