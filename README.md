@@ -1,1 +1,1 @@
-# Databetics-Using-Logistic-Regression
+This repo is all about usage of pandas syntax
