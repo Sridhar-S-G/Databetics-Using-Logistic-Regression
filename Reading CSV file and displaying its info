@@ -1,3 +1,4 @@
 import pandas as pd
 data=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv')
 print(data.info()) #displays info of the CSV file
+print(data.shape) #Another way of getting no.of rows and columns
