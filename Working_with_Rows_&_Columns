@@ -28,4 +28,59 @@ print(df['Pregnancies'].head())
 for example in above program the column name 'Pregnancies' is specified inside df['Pregnancies']
 so the Pregnancies column alone is printed'''
 
+#Sorting Columns
+import pandas as pd
+data=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv')
+df=pd.DataFrame(data)
+
+df2=df
+print(df2.head()) #printing head of dataframe(df) without sorting
+
+df2=df2.sort_values('Pregnancies')
+print(df2.head()) #printing df 'Pregnancies' column
+
+df3=df2.sort_values('Glucose')
+print(df3.head()) #printing head of df 'Glucose' column
+
+df4=df2.sort_values('BloodPressure')
+print(df4.head()) #printing head of df 'BloodPressure' column
+
+df5=df2.sort_values('SkinThickness')
+print(df5.head()) #printing head of df 'SkinThickness' column
+
+df6=df2.sort_values('Insulin')
+print(df6.head()) #printing head of df 'Insulin' column
+
+df7=df2.sort_values('BMI')
+print(df7.head()) #printing head of df 'BMI' column
+
+df8=df2.sort_values('DiabetesPedigreeFunction')
+print(df8.head()) #printing head of df 'DiabetesPedigreeFunction' column
+
+df9=df2.sort_values('Age')
+print(df9.head()) #printing head of df 'Age' column
+
+df10=df2.sort_values('Outcome')
+print(df10.head()) #printing head of df 'Outcome' column
+
+'''Printing a row(i.e 450) of different DataFrames(df,df2,df3,df4,df5,df6,df7,df8,df9,df10) 
+to check integrity after sorting different column'''
+
+print(df.ix[450]) 
+print(df2.ix[450])
+print(df3.ix[450])
+print(df4.ix[450])
+print(df5.ix[450])
+print(df6.ix[450])
+print(df7.ix[450])
+print(df8.ix[450])
+print(df9.ix[450])
+print(df10.ix[450])
+
+'''Its found data integrity is maintained is maintained
+
+In this way you can sort different columns of your DataFrame
+
+Note: sorting the data in one column retains its relative together so data is not misplaced''' 
+
 
