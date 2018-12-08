@@ -14,7 +14,6 @@ print(df.tail(35)) #Prints last n  number of rows defined in the function, here 
 '''Note: Execute different blocks to see individual o/p 
 or execute whole block to see the difference in each method'''
 
-#Method 4
 df=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv')
 print(df.loc[0,:])  #The loc[r,c] where r is Row and c is Column, here the code will print 1st row as r=0 and all columns
 print(df.loc[0:3,:]) #Here range of Rows will be displayed from 0 to 3 and all columns
@@ -22,6 +21,11 @@ print(df.loc[df.Pregnancies==1]) #Here Rows having pregnancies = 1 are displayed
 print(df.loc[0:3,'Pregnancies':'BloodPressure']) #Here row from 0 to 3 will be displayed and columns from Pregnancies to BloodPressure will be displyed
 print(df.loc[0:2,['Pregnancies','BloodPressure']]) #Here row from 0 to 3 will be displayed and columns Pregnancies and BloodPressure will be displayed
 
-'''Note some syntax used here are related to working with Rows and Columns
-But mostly it deals with working with Rows so its mentioned as working with Rows
-The syntax used here involving columns will not be repeated in 'workind with columns' '''
+df=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv')
+print(df['Pregnancies'].head())
+
+''' By specifying column name in the [] you can print the specified column,
+for example in above program the column name 'Pregnancies' is specified inside df['Pregnancies']
+so the Pregnancies column alone is printed'''
+
+
