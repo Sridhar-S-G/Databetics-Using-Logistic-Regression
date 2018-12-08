@@ -1,9 +1,5 @@
 This repo is all about usage of pandas syntax
 
-The order to be followed to understand usage
+Hope this helps you to learn basic syntax usage
 
-1.Reading CSV file and displaying its info
-2. Displaying head 
-3. Displaying selected column
-4. Sorting column #sorting selected column
-
+The most commonly used syntax are alone discussed here
