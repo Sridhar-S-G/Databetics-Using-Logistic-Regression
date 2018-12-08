@@ -1,0 +1,12 @@
+import pandas as pd
+
+#Method 1 
+
+#specifying number of rows in the read_csv function reads only first n specific rows from the csv file 
+df=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv',nrows=5)
+print(df)
+
+#Method 2
+df=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv')
+print(df.ix[405]) #Specifying a number inside ix displays only that specific row, here only row 405 is displayed
+print(df.ix[200:210]) #Specifying the range inside ix displays the range of rows, here only rows from 200 to 210 is displayed
