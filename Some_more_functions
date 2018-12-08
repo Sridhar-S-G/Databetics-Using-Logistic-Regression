@@ -1,0 +1,29 @@
+import pandas as pd
+data=pd.read_csv('https://raw.githubusercontent.com/Sridhar-S-G/Databetics-Using-Logistic-Regression/master/diabetes.csv')
+df=pd.DataFrame(data)
+df2=df
+
+# Count function
+c=df2['Outcome'].value_counts() #Prints count of duplicate values in 'Outcome' column 
+print(c)
+
+#Plot function
+df.plot() #if your dataFrame has two columns you can plot a graph between them
+
+#joints function
+df_3=pd.merge(df_1,df_2, on='column you want join')
+print(df_3.info())
+
+#Shift function
+df2.shift(1) #shifts all rows down by 1
+df2.shift(-1) #shifts all rows up by 1
+
+#Drop function
+df2.drop('Pregnancies', axis=1) #here Pregnancies column will be dropped, here axis=1 denotes column if axis=0 it denotes row
+
+#Filtering 
+df3=df2[df2.Outcome == 1] #here rows with 1 in Outcome column only will be copied to df3 ; like this condition can be combined to get certain data
+df3.mean() #Finds mean of columns in df3 
+
+#pivot function
+df2.pivot_table(index='specific Column_name in df', aggfun='aggregate function like sum,mean,count')
