@@ -1,0 +1,57 @@
+Cisco Certified Entry Network Technician
+Cisco Certified Techinicians 
+Cisco Certified Network Associate - Routing and Switching
+Cisco Certified Design Associate
+Cisco Certified Network Associate - Cloud
+Cisco Certified Network Associate - Collaboration
+Cisco Certified Network Associate - CyberOps
+Cisco Certified Network Associate - Industrial 
+Cisco Certified Network Associate - Security
+Cisco Certified Network Associate - Service Provider
+Cisco Certified Network Associate - Wireless
+Cisco Certified Network Professional - Routing and Switching
+Cisco Certified Design Professional 
+Cisco Certified Network Professional - Collaboration
+Cisco Certified Network Professional - Data Cneter
+Cisco Certified Network Professional - Security
+Cisco Certified Network Professional - Service Provider
+Cisco Certified Network Professional - Wireless
+Cisco Certified Architect
+Cisco Certified Internetwork Expert - Routing and Switching
+Cisco Certified Design Expert
+Cisco Certified Internetwork Expert  - Collaboration
+Cisco Certified Internetwork Expert - Data Cneter
+Cisco Certified Internetwork Expert  - Security
+Cisco Certified Internetwork Expert - Service Provider
+Cisco Certified Internetwork Expert - Wireless
+
+Red Hat Certified System Administrator (RHCSA)
+Red Hat Certified Engineer (RHCE)
+Red Hat Certified Architect (RHCA)
+Red Hat Certified Engineer in Red Hat OpenStack
+Red Hat Certified Enterprise Application Developer
+Red Hat Certified Enterprise Microservices Developer
+Red Hat Certified System Administrator in Red Hat OpenStack
+Red Hat Certified Specialist in Gluster Storage Administration
+Red Hat Certified Specialist in Virtualization
+Red Hat Certified Specialist in Enterprise Application Server Administration
+Red Hat Certified Specialist in Business Rules
+Red Hat Certified Specialist in Business Process Design
+Red Hat Certified Specialist in Camel Development
+Red Hat Certified Specialist in Deployment and Systems Management
+Red Hat Certified Specialist in High Availability Clustering
+Red Hat Certified Specialist in OpenShift Administration
+Red Hat Certified Specialist in OpenShift Application Development
+Red Hat Certified Specialist in Linux Performance Tuning
+Red Hat Certified Specialist in Fast-Cache Application Development
+Red Hat Certified Specialist in Configuration Management
+Red Hat Certified Specialist in Linux Diagnostics and Troubleshooting
+Red Hat Certified Specialist in Ansible Automation
+Red Hat Certified Specialist in Messaging Administration
+Red Hat Certified Specialist in Ceph Storage Administration
+Red Hat Certified Specialist in Identity Management
+Red Hat Certified Specialist in Security: Linux
+Red Hat Certified Specialist in Security: Containers and OpenShift Container Platform
+Red Hat Certified Specialist in API management
+Red Hat Certified Specialist in Advanced Automation: Ansible Best Practices
+Red Hat Certified Specialist in Containers and Kubernetes
