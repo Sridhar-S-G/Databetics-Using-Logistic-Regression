@@ -24,7 +24,6 @@ Cisco Certified Internetwork Expert - Data Cneter
 Cisco Certified Internetwork Expert  - Security
 Cisco Certified Internetwork Expert - Service Provider
 Cisco Certified Internetwork Expert - Wireless
-
 Red Hat Certified System Administrator (RHCSA)
 Red Hat Certified Engineer (RHCE)
 Red Hat Certified Architect (RHCA)
